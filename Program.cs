@@ -94,7 +94,7 @@ using System.ComponentModel.Design;
 
 #region
 string duzCavab = "Lupa";
-int sayi = 1;
+int sayi = 0;
 do
 {
     string ist = Console.ReadLine();
@@ -103,7 +103,7 @@ do
         Console.WriteLine("Tebrikler dogru cavab");
         break;
     }
-    else if (sayi == 5)
+    else if (sayi == 4)
     {
         Console.WriteLine("Meglub oldunuz");
     }
@@ -112,6 +112,6 @@ do
         sayi++;
     }Console.WriteLine("Yeniden cehd edin");
 
-} while (sayi <= 5);
+} while (sayi <= 4);
 #endregion
 #endregion
